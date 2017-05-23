@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1CE270A1ED4D6FE00C98A12 /* starbucks-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1CE27091ED4D6FE00C98A12 /* starbucks-1.jpg */; };
+		A1CE270C1ED4D71000C98A12 /* starbucks-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1CE270B1ED4D71000C98A12 /* starbucks-2.jpg */; };
+		A1CE270E1ED4D71C00C98A12 /* starbucks-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1CE270D1ED4D71C00C98A12 /* starbucks-3.jpg */; };
+		A1CE27101ED4D83000C98A12 /* starbucks-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CE270F1ED4D83000C98A12 /* starbucks-icon.png */; };
 		C4E8B4D01C99C6A2004E767D /* StarbucksAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E8B4CF1C99C6A2004E767D /* StarbucksAnnotation.swift */; };
 		C4E8B4D21C99C7CD004E767D /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E8B4D11C99C7CD004E767D /* AnnotationView.swift */; };
 		C4ED44DC1C90E9B10018323B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4ED44DB1C90E9B10018323B /* MapKit.framework */; };
@@ -17,9 +21,6 @@
 		C4EE42041C90917E00B985AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EE42021C90917E00B985AB /* LaunchScreen.storyboard */; };
 		C4EE420F1C90917E00B985AB /* CustomCalloutViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EE420E1C90917E00B985AB /* CustomCalloutViewTests.swift */; };
 		C4EE421A1C90917E00B985AB /* CustomCalloutViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EE42191C90917E00B985AB /* CustomCalloutViewUITests.swift */; };
-		C4F1A4A61C92183100BD0B7F /* starbucks-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4F1A4A51C92183100BD0B7F /* starbucks-1.jpg */; };
-		C4F1A4A91C9218E400BD0B7F /* starbucks-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4F1A4A71C9218E400BD0B7F /* starbucks-2.jpg */; };
-		C4F1A4AA1C9218E400BD0B7F /* starbucks-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4F1A4A81C9218E400BD0B7F /* starbucks-3.jpg */; };
 		C4F1A4AE1C92292900BD0B7F /* CustomCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4F1A4AD1C92292900BD0B7F /* CustomCalloutView.xib */; };
 		C4F1A4B01C92295C00BD0B7F /* CustomCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F1A4AF1C92295C00BD0B7F /* CustomCalloutView.swift */; };
 /* End PBXBuildFile section */
@@ -42,25 +43,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A1CE27091ED4D6FE00C98A12 /* starbucks-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "starbucks-1.jpg"; sourceTree = "<group>"; };
+		A1CE270B1ED4D71000C98A12 /* starbucks-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "starbucks-2.jpg"; sourceTree = "<group>"; };
+		A1CE270D1ED4D71C00C98A12 /* starbucks-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "starbucks-3.jpg"; sourceTree = "<group>"; };
+		A1CE270F1ED4D83000C98A12 /* starbucks-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "starbucks-icon.png"; sourceTree = "<group>"; };
 		C4E8B4CF1C99C6A2004E767D /* StarbucksAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarbucksAnnotation.swift; sourceTree = "<group>"; };
 		C4E8B4D11C99C7CD004E767D /* AnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
 		C4ED44DB1C90E9B10018323B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		C4EE41F61C90917E00B985AB /* ShepMap0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShepMap0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EE41F61C90917E00B985AB /* _ShepMap0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = _ShepMap0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EE41F91C90917E00B985AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4EE41FB1C90917E00B985AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C4EE41FE1C90917E00B985AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4EE42001C90917E00B985AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4EE42031C90917E00B985AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4EE42051C90917E00B985AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4EE420A1C90917E00B985AB /* ShepMap0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShepMap0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EE420A1C90917E00B985AB /* _ShepMap0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = _ShepMap0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EE420E1C90917E00B985AB /* CustomCalloutViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCalloutViewTests.swift; sourceTree = "<group>"; };
 		C4EE42101C90917E00B985AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4EE42151C90917E00B985AB /* ShepMap0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShepMap0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EE42151C90917E00B985AB /* _ShepMap0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = _ShepMap0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EE42191C90917E00B985AB /* CustomCalloutViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCalloutViewUITests.swift; sourceTree = "<group>"; };
 		C4EE421B1C90917E00B985AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4F1A4A51C92183100BD0B7F /* starbucks-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "starbucks-1.jpg"; sourceTree = "<group>"; };
-		C4F1A4A71C9218E400BD0B7F /* starbucks-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "starbucks-2.jpg"; sourceTree = "<group>"; };
-		C4F1A4A81C9218E400BD0B7F /* starbucks-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "starbucks-3.jpg"; sourceTree = "<group>"; };
 		C4F1A4AD1C92292900BD0B7F /* CustomCalloutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCalloutView.xib; sourceTree = "<group>"; };
 		C4F1A4AF1C92295C00BD0B7F /* CustomCalloutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCalloutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,9 +107,9 @@
 		C4EE41F71C90917E00B985AB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C4EE41F61C90917E00B985AB /* ShepMap0.app */,
-				C4EE420A1C90917E00B985AB /* ShepMap0Tests.xctest */,
-				C4EE42151C90917E00B985AB /* ShepMap0UITests.xctest */,
+				C4EE41F61C90917E00B985AB /* _ShepMap0.app */,
+				C4EE420A1C90917E00B985AB /* _ShepMap0Tests.xctest */,
+				C4EE42151C90917E00B985AB /* _ShepMap0UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,9 +152,10 @@
 		C4F1A4AB1C9228F500BD0B7F /* images */ = {
 			isa = PBXGroup;
 			children = (
-				C4F1A4A51C92183100BD0B7F /* starbucks-1.jpg */,
-				C4F1A4A71C9218E400BD0B7F /* starbucks-2.jpg */,
-				C4F1A4A81C9218E400BD0B7F /* starbucks-3.jpg */,
+				A1CE27091ED4D6FE00C98A12 /* starbucks-1.jpg */,
+				A1CE270B1ED4D71000C98A12 /* starbucks-2.jpg */,
+				A1CE270D1ED4D71C00C98A12 /* starbucks-3.jpg */,
+				A1CE270F1ED4D83000C98A12 /* starbucks-icon.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -169,9 +172,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C4EE41F51C90917E00B985AB /* ShepMap0 */ = {
+		C4EE41F51C90917E00B985AB /* _ShepMap0 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4EE421E1C90917E00B985AB /* Build configuration list for PBXNativeTarget "ShepMap0" */;
+			buildConfigurationList = C4EE421E1C90917E00B985AB /* Build configuration list for PBXNativeTarget "_ShepMap0" */;
 			buildPhases = (
 				C4EE41F21C90917E00B985AB /* Sources */,
 				C4EE41F31C90917E00B985AB /* Frameworks */,
@@ -181,14 +184,14 @@
 			);
 			dependencies = (
 			);
-			name = ShepMap0;
+			name = _ShepMap0;
 			productName = CustomCalloutView;
-			productReference = C4EE41F61C90917E00B985AB /* ShepMap0.app */;
+			productReference = C4EE41F61C90917E00B985AB /* _ShepMap0.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C4EE42091C90917E00B985AB /* ShepMap0Tests */ = {
+		C4EE42091C90917E00B985AB /* _ShepMap0Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4EE42211C90917E00B985AB /* Build configuration list for PBXNativeTarget "ShepMap0Tests" */;
+			buildConfigurationList = C4EE42211C90917E00B985AB /* Build configuration list for PBXNativeTarget "_ShepMap0Tests" */;
 			buildPhases = (
 				C4EE42061C90917E00B985AB /* Sources */,
 				C4EE42071C90917E00B985AB /* Frameworks */,
@@ -199,14 +202,14 @@
 			dependencies = (
 				C4EE420C1C90917E00B985AB /* PBXTargetDependency */,
 			);
-			name = ShepMap0Tests;
+			name = _ShepMap0Tests;
 			productName = CustomCalloutViewTests;
-			productReference = C4EE420A1C90917E00B985AB /* ShepMap0Tests.xctest */;
+			productReference = C4EE420A1C90917E00B985AB /* _ShepMap0Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C4EE42141C90917E00B985AB /* ShepMap0UITests */ = {
+		C4EE42141C90917E00B985AB /* _ShepMap0UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4EE42241C90917E00B985AB /* Build configuration list for PBXNativeTarget "ShepMap0UITests" */;
+			buildConfigurationList = C4EE42241C90917E00B985AB /* Build configuration list for PBXNativeTarget "_ShepMap0UITests" */;
 			buildPhases = (
 				C4EE42111C90917E00B985AB /* Sources */,
 				C4EE42121C90917E00B985AB /* Frameworks */,
@@ -217,9 +220,9 @@
 			dependencies = (
 				C4EE42171C90917E00B985AB /* PBXTargetDependency */,
 			);
-			name = ShepMap0UITests;
+			name = _ShepMap0UITests;
 			productName = CustomCalloutViewUITests;
-			productReference = C4EE42151C90917E00B985AB /* ShepMap0UITests.xctest */;
+			productReference = C4EE42151C90917E00B985AB /* _ShepMap0UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -248,7 +251,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C4EE41F11C90917E00B985AB /* Build configuration list for PBXProject "ShepMap0" */;
+			buildConfigurationList = C4EE41F11C90917E00B985AB /* Build configuration list for PBXProject "_ShepMap0" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -261,9 +264,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C4EE41F51C90917E00B985AB /* ShepMap0 */,
-				C4EE42091C90917E00B985AB /* ShepMap0Tests */,
-				C4EE42141C90917E00B985AB /* ShepMap0UITests */,
+				C4EE41F51C90917E00B985AB /* _ShepMap0 */,
+				C4EE42091C90917E00B985AB /* _ShepMap0Tests */,
+				C4EE42141C90917E00B985AB /* _ShepMap0UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -273,12 +276,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4F1A4AA1C9218E400BD0B7F /* starbucks-3.jpg in Resources */,
+				A1CE270E1ED4D71C00C98A12 /* starbucks-3.jpg in Resources */,
+				A1CE270C1ED4D71000C98A12 /* starbucks-2.jpg in Resources */,
 				C4EE42041C90917E00B985AB /* LaunchScreen.storyboard in Resources */,
-				C4F1A4A91C9218E400BD0B7F /* starbucks-2.jpg in Resources */,
-				C4F1A4A61C92183100BD0B7F /* starbucks-1.jpg in Resources */,
 				C4EE42011C90917E00B985AB /* Assets.xcassets in Resources */,
 				C4F1A4AE1C92292900BD0B7F /* CustomCalloutView.xib in Resources */,
+				A1CE27101ED4D83000C98A12 /* starbucks-icon.png in Resources */,
+				A1CE270A1ED4D6FE00C98A12 /* starbucks-1.jpg in Resources */,
 				C4EE41FF1C90917E00B985AB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,12 +337,12 @@
 /* Begin PBXTargetDependency section */
 		C4EE420C1C90917E00B985AB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C4EE41F51C90917E00B985AB /* ShepMap0 */;
+			target = C4EE41F51C90917E00B985AB /* _ShepMap0 */;
 			targetProxy = C4EE420B1C90917E00B985AB /* PBXContainerItemProxy */;
 		};
 		C4EE42171C90917E00B985AB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C4EE41F51C90917E00B985AB /* ShepMap0 */;
+			target = C4EE41F51C90917E00B985AB /* _ShepMap0 */;
 			targetProxy = C4EE42161C90917E00B985AB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -494,7 +498,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.medigarage.CustomCalloutViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShepMap0.app/ShepMap0";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/_ShepMap0.app/_ShepMap0";
 			};
 			name = Debug;
 		};
@@ -507,7 +511,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.medigarage.CustomCalloutViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShepMap0.app/ShepMap0";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/_ShepMap0.app/_ShepMap0";
 			};
 			name = Release;
 		};
@@ -540,7 +544,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C4EE41F11C90917E00B985AB /* Build configuration list for PBXProject "ShepMap0" */ = {
+		C4EE41F11C90917E00B985AB /* Build configuration list for PBXProject "_ShepMap0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4EE421C1C90917E00B985AB /* Debug */,
@@ -549,7 +553,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4EE421E1C90917E00B985AB /* Build configuration list for PBXNativeTarget "ShepMap0" */ = {
+		C4EE421E1C90917E00B985AB /* Build configuration list for PBXNativeTarget "_ShepMap0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4EE421F1C90917E00B985AB /* Debug */,
@@ -558,7 +562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4EE42211C90917E00B985AB /* Build configuration list for PBXNativeTarget "ShepMap0Tests" */ = {
+		C4EE42211C90917E00B985AB /* Build configuration list for PBXNativeTarget "_ShepMap0Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4EE42221C90917E00B985AB /* Debug */,
@@ -567,7 +571,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4EE42241C90917E00B985AB /* Build configuration list for PBXNativeTarget "ShepMap0UITests" */ = {
+		C4EE42241C90917E00B985AB /* Build configuration list for PBXNativeTarget "_ShepMap0UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4EE42251C90917E00B985AB /* Debug */,

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C4EE41F51C90917E00B985AB"
-               BuildableName = "ShepMap0.app"
-               BlueprintName = "ShepMap0"
-               ReferencedContainer = "container:ShepMap0.xcodeproj">
+               BuildableName = "_ShepMap0.app"
+               BlueprintName = "_ShepMap0"
+               ReferencedContainer = "container:_ShepMap0.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C4EE42091C90917E00B985AB"
-               BuildableName = "ShepMap0Tests.xctest"
-               BlueprintName = "ShepMap0Tests"
-               ReferencedContainer = "container:ShepMap0.xcodeproj">
+               BuildableName = "_ShepMap0Tests.xctest"
+               BlueprintName = "_ShepMap0Tests"
+               ReferencedContainer = "container:_ShepMap0.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C4EE42141C90917E00B985AB"
-               BuildableName = "ShepMap0UITests.xctest"
-               BlueprintName = "ShepMap0UITests"
-               ReferencedContainer = "container:ShepMap0.xcodeproj">
+               BuildableName = "_ShepMap0UITests.xctest"
+               BlueprintName = "_ShepMap0UITests"
+               ReferencedContainer = "container:_ShepMap0.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C4EE41F51C90917E00B985AB"
-            BuildableName = "ShepMap0.app"
-            BlueprintName = "ShepMap0"
-            ReferencedContainer = "container:ShepMap0.xcodeproj">
+            BuildableName = "_ShepMap0.app"
+            BlueprintName = "_ShepMap0"
+            ReferencedContainer = "container:_ShepMap0.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C4EE41F51C90917E00B985AB"
-            BuildableName = "ShepMap0.app"
-            BlueprintName = "ShepMap0"
-            ReferencedContainer = "container:ShepMap0.xcodeproj">
+            BuildableName = "_ShepMap0.app"
+            BlueprintName = "_ShepMap0"
+            ReferencedContainer = "container:_ShepMap0.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C4EE41F51C90917E00B985AB"
-            BuildableName = "ShepMap0.app"
-            BlueprintName = "ShepMap0"
-            ReferencedContainer = "container:ShepMap0.xcodeproj">
+            BuildableName = "_ShepMap0.app"
+            BlueprintName = "_ShepMap0"
+            ReferencedContainer = "container:_ShepMap0.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
