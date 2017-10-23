@@ -6,7 +6,6 @@
 //  Copyright © 2016 Medigarage Studios LTD. All rights reserved.
 //
 
-// This is a GitHub test
 
 import UIKit
 import MapKit
