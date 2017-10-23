@@ -11,7 +11,7 @@
 		A1CE270C1ED4D71000C98A12 /* starbucks-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1CE270B1ED4D71000C98A12 /* starbucks-2.jpg */; };
 		A1CE270E1ED4D71C00C98A12 /* starbucks-3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1CE270D1ED4D71C00C98A12 /* starbucks-3.jpg */; };
 		A1CE27101ED4D83000C98A12 /* starbucks-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A1CE270F1ED4D83000C98A12 /* starbucks-icon.png */; };
-		C4E8B4D01C99C6A2004E767D /* StarbucksAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E8B4CF1C99C6A2004E767D /* StarbucksAnnotation.swift */; };
+		C4E8B4D01C99C6A2004E767D /* ShepSinglesAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E8B4CF1C99C6A2004E767D /* ShepSinglesAnnotation.swift */; };
 		C4E8B4D21C99C7CD004E767D /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E8B4D11C99C7CD004E767D /* AnnotationView.swift */; };
 		C4ED44DC1C90E9B10018323B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4ED44DB1C90E9B10018323B /* MapKit.framework */; };
 		C4EE41FA1C90917E00B985AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EE41F91C90917E00B985AB /* AppDelegate.swift */; };
@@ -47,7 +47,7 @@
 		A1CE270B1ED4D71000C98A12 /* starbucks-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "starbucks-2.jpg"; sourceTree = "<group>"; };
 		A1CE270D1ED4D71C00C98A12 /* starbucks-3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "starbucks-3.jpg"; sourceTree = "<group>"; };
 		A1CE270F1ED4D83000C98A12 /* starbucks-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "starbucks-icon.png"; sourceTree = "<group>"; };
-		C4E8B4CF1C99C6A2004E767D /* StarbucksAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarbucksAnnotation.swift; sourceTree = "<group>"; };
+		C4E8B4CF1C99C6A2004E767D /* ShepSinglesAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShepSinglesAnnotation.swift; sourceTree = "<group>"; };
 		C4E8B4D11C99C7CD004E767D /* AnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
 		C4ED44DB1C90E9B10018323B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		C4EE41F61C90917E00B985AB /* _ShepMap0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = _ShepMap0.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,7 +122,7 @@
 				C4EE41F91C90917E00B985AB /* AppDelegate.swift */,
 				C4EE41FB1C90917E00B985AB /* ViewController.swift */,
 				C4E8B4D11C99C7CD004E767D /* AnnotationView.swift */,
-				C4E8B4CF1C99C6A2004E767D /* StarbucksAnnotation.swift */,
+				C4E8B4CF1C99C6A2004E767D /* ShepSinglesAnnotation.swift */,
 				C4EE41FD1C90917E00B985AB /* Main.storyboard */,
 				C4EE42001C90917E00B985AB /* Assets.xcassets */,
 				C4EE42021C90917E00B985AB /* LaunchScreen.storyboard */,
@@ -232,12 +232,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Medigarage Studios LTD";
 				TargetAttributes = {
 					C4EE41F51C90917E00B985AB = {
 						CreatedOnToolsVersion = 7.2.1;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0900;
 					};
 					C4EE42091C90917E00B985AB = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -309,7 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4F1A4B01C92295C00BD0B7F /* CustomCalloutView.swift in Sources */,
-				C4E8B4D01C99C6A2004E767D /* StarbucksAnnotation.swift in Sources */,
+				C4E8B4D01C99C6A2004E767D /* ShepSinglesAnnotation.swift in Sources */,
 				C4E8B4D21C99C7CD004E767D /* AnnotationView.swift in Sources */,
 				C4EE41FC1C90917E00B985AB /* ViewController.swift in Sources */,
 				C4EE41FA1C90917E00B985AB /* AppDelegate.swift in Sources */,
@@ -375,14 +375,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -423,14 +429,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -469,7 +481,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.medigarage.CustomCalloutView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -485,7 +498,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.medigarage.CustomCalloutView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
