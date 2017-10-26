@@ -1,4 +1,7 @@
 
+/// Remember that THREE SLASHES above a custom method puts that comment into the Xcode quickhelp
+
+
 import MapKit
 
 class ShepSingleAnnotation: NSObject, MKAnnotation {

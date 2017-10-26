@@ -6,6 +6,10 @@
 //  Copyright © 2016 Medigarage Studios LTD. All rights reserved.
 //
 
+
+/// Remember that THREE SLASHES above a custom method puts that comment into the Xcode quickhelp
+
+
 import MapKit
 
 class AnnotationView: MKAnnotationView {
